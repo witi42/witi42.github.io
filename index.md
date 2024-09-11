@@ -1,11 +1,12 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
 ---
 # Robin Wiethüchter
 Hi 👋, I’m Robin Wiethüchter, software engineer and co-founder of [Clipmate AI](https://clipmate.ai/).
+
+I've studied computer science at ETH Zürich (BSc, MSc) and previously worked at [urb-x AG](https://urb-x.ch/).
+
+<!-- > [LinkedIn](https://www.linkedin.com/in/robin-wiethuchter/) [X](https://x.com/wiethix) -->
 
 ## Projects
 
