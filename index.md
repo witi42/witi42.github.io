@@ -11,9 +11,8 @@ I've studied computer science at ETH Zürich (BSc, MSc) and previously worked at
 ## Projects
 
 {% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }})
-
-    _{{ post.date | date: "%B %d, %Y" }}_
+<!-- - [{{ post.title }} >>]({{ post.url }}) _{{ post.date | date: "%B %d, %Y" }}_ -->
+- **{{ post.title }}** - _{{ post.date | date: "%B %d, %Y" }}_
 
     {{ post.excerpt }}
 
@@ -27,5 +26,5 @@ I've studied computer science at ETH Zürich (BSc, MSc) and previously worked at
     </div>
     {% endif %}
 
-    <!-- [Read more]({{ post.url }}) -->
+    [more ...]({{ post.url }})
 {% endfor %}
