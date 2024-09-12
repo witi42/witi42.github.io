@@ -17,5 +17,15 @@ I've studied computer science at ETH Zürich (BSc, MSc) and previously worked at
 
     {{ post.excerpt }}
 
-    [Read more]({{ post.url }})
+    {% if post.image %}
+    <img src="{{ site.url | default: rowi.dev }}{{ site.baseurl }}/assets/images/{{ post.image }}" alt="{{ post.image_alt }}" width="280" style="display: block; margin-left: 0;">
+    {% endif %}
+
+    {% if post.youtube %}
+    <div class="video-container">
+        <iframe width="280" height="157" src="https://www.youtube.com/embed/{{ post.youtube | split: '/' | last }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    {% endif %}
+
+    <!-- [Read more]({{ post.url }}) -->
 {% endfor %}
