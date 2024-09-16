@@ -1,0 +1,46 @@
+<div id="cookie-consent-banner" style="display: none; text-align: center;">
+    <p>We use cookies to personalize content, to provide social media features and to analyze our traffic. By clicking "Accept", you consent to the use of cookies.</p>
+    <div style="display: flex; justify-content: center; gap: 10px;">
+        <button id="accept-cookies">Accept</button>
+        <button id="decline-cookies">Decline</button>
+    </div>
+</div>
+  
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var consent = localStorage.getItem('cookieConsent');
+      if (!consent) {
+        document.getElementById('cookie-consent-banner').style.display = 'block';
+      }
+  
+      document.getElementById('accept-cookies').addEventListener('click', function() {
+        localStorage.setItem('cookieConsent', 'accepted');
+        document.getElementById('cookie-consent-banner').style.display = 'none';
+        initializeGoogleAnalytics();
+      });
+  
+      document.getElementById('decline-cookies').addEventListener('click', function() {
+        localStorage.setItem('cookieConsent', 'declined');
+        document.getElementById('cookie-consent-banner').style.display = 'none';
+      });
+  
+      if (consent === 'accepted') {
+        initializeGoogleAnalytics();
+      }
+    });
+  
+    function initializeGoogleAnalytics() {
+      // Google tag (gtag.js)
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=G-Z73JZCWENV';
+      document.head.appendChild(script);
+  
+      script.onload = function() {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-Z73JZCWENV');
+      };
+    }
+</script>
