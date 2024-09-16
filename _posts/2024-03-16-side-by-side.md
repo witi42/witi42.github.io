@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Side-By-Side Might Win: IEEE VRW 2024 Poster"
+title: "Side-By-Side Might Win: IEEE VRW 2024"
 category: Projects
 youtube: https://youtu.be/Qxxm2uxEIBA?si=sHBaFZ7fAQ7a-fn6
 ---

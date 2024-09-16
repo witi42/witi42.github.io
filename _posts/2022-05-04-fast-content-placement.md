@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Fast Content Placement in 3D Scenes: FLAIRS 2022 Poster"
+title: "Fast Content Placement in 3D Scenes: FLAIRS 2022"
 category: Projects
 image: fast-content.png
 ---
