@@ -9,7 +9,7 @@ I've studied computer science at ETH Zürich (BSc, MSc) and previously worked at
 <!-- > [LinkedIn](https://www.linkedin.com/in/robin-wiethuchter/) [X](https://x.com/wiethix) -->
 
 
-## Ask me Anything
+## Ask me Anything - Chatbot
 <div id="chatbot" style="border: 1px solid #ccc; padding: 10px; max-width: 500px;">
     <div id="chat-history" style="height: 140px; overflow-y: auto; border-bottom: 1px solid #ccc; margin-bottom: 10px;">
         <!-- Chat history will be appended here -->
