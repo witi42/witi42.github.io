@@ -6,6 +6,11 @@ Hi 👋, I’m Robin, software engineer and co-founder of [Clipmate AI](https://
 
 I've studied computer science at ETH Zürich (BSc, MSc) and previously worked at [urb-x AG](https://urb-x.ch/).
 
+Alongside my main work, I've enjoyed teaching CS at Zurich International School and LernCenter for [Hebbian](https://hebbian.ch/).
+
+
+For work and project opportunities, hit me up on [LinkedIn](https://www.linkedin.com/in/robin-wiethuchter/) or reach out to <img src="{{ site.url | default: rowi.dev }}{{ site.baseurl }}/assets/images/hi.jpeg" aria-hidden="true" style="height: 1.8em; vertical-align: text-bottom; margin: 0 0.2em; display: inline-block;">
+
 <!-- > [LinkedIn](https://www.linkedin.com/in/robin-wiethuchter/) [X](https://x.com/wiethix) -->
 
 
